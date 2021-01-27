@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/foodtoic">
+
+
+    <TextView
+        android:id="@+id/resturantName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:fontFamily="@font/yellowginger"
+        android:gravity="center"
+        android:text="Magdy"
+        android:textColor="#2B2B2B"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/resturant"
+        app:layout_constraintEnd_toStartOf="@+id/guideline18"
+        app:layout_constraintStart_toStartOf="@+id/guideline17"
+        app:layout_constraintTop_toTopOf="@+id/guideline19" />
+
+    <TextView
+
+        android:id="@+id/resturant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/baguette"
+
+        android:text="Restaurant"
+        android:textColor="#CBF9FF"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/scrollView2"
+        app:layout_constraintEnd_toStartOf="@+id/guideline18"
+        app:layout_constraintStart_toStartOf="@+id/guideline17"
+        app:layout_constraintTop_toBottomOf="@+id/resturantName" />
+
+    <HorizontalScrollView
+        android:id="@+id/scrollView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/name"
+        app:layout_constraintEnd_toEndOf="@id/guideline18"
+        app:layout_constraintStart_toStartOf="@id/guideline17"
+        app:layout_constraintTop_toBottomOf="@id/resturant">
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="15dp"
+                android:padding="5dp">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cir_1"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:onClick="btn_cir_1"
+                    android:src="@drawable/chicken"
+                    android:textDirection="locale"
+                    app:civ_border_color="#03A9F4"
+                    app:civ_border_width="3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cir_2"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:onClick="btn_cir_2"
+                    android:src="@drawable/seafood"
+                    app:civ_border_color="#03A9F4"
+                    app:civ_border_width="3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cir_3"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:onClick="btn_cir_3"
+                    android:src="@drawable/dessert"
+                    app:civ_border_color="#03A9F4"
+                    app:civ_border_width="3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cir_4"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:onClick="btn_cir_4"
+                    android:src="@drawable/fir"
+                    app:civ_border_color="#03A9F4"
+                    app:civ_border_width="3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cir_5"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:onClick="btn_cir_5"
+                    android:src="@drawable/pizza"
+                    app:civ_border_color="#03A9F4"
+                    app:civ_border_width="3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cir_6"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:onClick="btn_cir_6"
+                    android:src="@drawable/side"
+                    app:civ_border_color="#03A9F4"
+                    app:civ_border_width="3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cir_7"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:onClick="btn_cir_7"
+                    android:src="@drawable/sand"
+                    app:civ_border_color="#03A9F4"
+                    app:civ_border_width="3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cir_8"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:onClick="btn_cir_8"
+                    android:src="@drawable/fres"
+                    app:civ_border_color="#03A9F4"
+                    app:civ_border_width="3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cir_9"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:onClick="btn_cir_9"
+                    android:src="@drawable/drink"
+                    app:civ_border_color="#03A9F4"
+                    app:civ_border_width="3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cir_10"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:onClick="btn_cir_10"
+                    android:src="@drawable/apat"
+                    app:civ_border_color="#03A9F4"
+                    app:civ_border_width="3dp" />
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/cir_11"
+                    android:layout_width="96dp"
+                    android:layout_height="96dp"
+                    android:layout_margin="5dp"
+                    android:onClick="btn_cir_11"
+                    android:src="@drawable/beef"
+                    app:civ_border_color="#03A9F4"
+                    app:civ_border_width="3dp" />
+            </LinearLayout>
+        </FrameLayout>
+    </HorizontalScrollView>
+
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="171dp"
+        android:layout_height="61dp"
+        android:fontFamily="@font/itck"
+        android:gravity="center"
+        android:padding="5dp"
+        android:textColor="#03A9F4"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/description"
+        app:layout_constraintEnd_toEndOf="@id/guideline18"
+        app:layout_constraintStart_toStartOf="@id/guideline17"
+        app:layout_constraintTop_toBottomOf="@id/scrollView2"
+        tools:text="Main Courses" />
+
+    <TextView
+        android:id="@+id/description"
+        android:layout_width="325dp"
+        android:layout_height="58dp"
+        android:gravity="center"
+        android:padding="10dp"
+        android:textColor="#71B2E6"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/listView_containt"
+        app:layout_constraintEnd_toEndOf="@id/guideline18"
+        app:layout_constraintStart_toStartOf="@id/guideline17"
+        app:layout_constraintTop_toBottomOf="@id/name"
+        tools:text="Our selection of best meat and chicken dishes  Made with fresh ingredient" />
+
+    <ListView
+        android:id="@+id/listView_containt"
+        android:layout_width="359dp"
+        android:layout_height="255dp"
+        android:layout_marginVertical="@dimen/cardview_default_radius"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:background="@drawable/border"
+        android:divider="#CDDC39"
+        android:dividerHeight="2dp"
+        android:headerDividersEnabled="true"
+        app:layout_constraintBottom_toTopOf="@+id/guideline20"
+        app:layout_constraintEnd_toStartOf="@+id/guideline18"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/guideline17"
+        app:layout_constraintTop_toBottomOf="@id/description">
+
+    </ListView>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floatingActionButton2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="32dp"
+        android:onClick="floatingCartButton"
+        android:clickable="true"
+        app:backgroundTint="#9c8cff"
+        app:layout_constraintEnd_toStartOf="@id/guideline22"
+        app:layout_constraintStart_toStartOf="@+id/guideline24"
+        app:layout_constraintTop_toTopOf="@+id/guideline23"
+        app:srcCompat="@drawable/ic_baseline_shopping_cart_24" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent=".95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent=".95" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.91" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.75" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_percent="0.71" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

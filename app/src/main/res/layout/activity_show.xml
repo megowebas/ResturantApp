@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_show">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:context=".ShowActivity">
+
+        <ImageView
+            android:id="@+id/show_img"
+            android:layout_width="362dp"
+            android:layout_height="282dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/show_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+        <ImageView
+            android:layout_width="367dp"
+            android:layout_height="287dp"
+            android:layout_marginStart="8dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="16dp"
+            android:layout_marginBottom="16dp"
+            android:background="@drawable/border"
+            android:scaleType="fitXY"
+            app:layout_constraintBottom_toTopOf="@+id/show_name"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toTopOf="parent"
+            />
+
+        <TextView
+            android:id="@+id/show_name"
+            android:layout_width="281dp"
+            android:layout_height="51dp"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/show_img"
+            tools:text="Meal Name" />
+
+        <TextView
+            android:id="@+id/kcal"
+            android:layout_width="66dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="19dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="#684141"
+            android:textSize="12sp"
+            app:layout_constraintBottom_toTopOf="@+id/radiogp"
+            app:layout_constraintEnd_toStartOf="@+id/imageView5"
+            app:layout_constraintStart_toEndOf="@+id/imageView4"
+            app:layout_constraintTop_toBottomOf="@+id/show_name"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/time"
+            android:layout_width="66dp"
+            android:layout_height="39dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="84dp"
+            android:layout_marginBottom="16dp"
+            android:gravity="center"
+            android:text="12"
+            android:textColor="#684141"
+            app:layout_constraintBottom_toTopOf="@+id/radiogp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/imageView5"
+            app:layout_constraintTop_toBottomOf="@+id/show_name" />
+
+        <RadioGroup
+            android:id="@+id/radiogp"
+            android:layout_width="274dp"
+            android:layout_height="138dp"
+            android:layout_marginStart="50dp"
+            android:layout_marginTop="15dp"
+            android:gravity="center"
+            app:layout_constraintEnd_toStartOf="@+id/price_small"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/imageView4">
+
+            <RadioButton
+                android:id="@+id/small"
+                style="@style/Widget.AppCompat.CompoundButton.RadioButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="Small"
+                android:textColor="#0E1D29" />
+
+            <RadioButton
+                android:id="@+id/medium"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Medium"
+                android:textColor="#0E1D29" />
+
+            <RadioButton
+                android:id="@+id/big"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Big"
+                android:textColor="#0E1D29" />
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/price_small"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:textColor="#830303"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline13"
+            app:layout_constraintStart_toEndOf="@+id/radiogp"
+            app:layout_constraintTop_toBottomOf="@+id/time"
+            tools:text="20$" />
+
+        <TextView
+            android:id="@+id/price_big"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:textColor="#830303"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline13"
+            app:layout_constraintStart_toEndOf="@+id/radiogp"
+            app:layout_constraintTop_toBottomOf="@+id/price_medium"
+            tools:text="20$" />
+
+        <TextView
+            android:id="@+id/price_medium"
+            android:layout_width="40dp"
+            android:layout_height="45dp"
+            android:layout_marginEnd="8dp"
+            android:gravity="center"
+            android:textColor="#830303"
+            android:textSize="14sp"
+            app:layout_constraintEnd_toStartOf="@+id/guideline13"
+            app:layout_constraintStart_toEndOf="@+id/radiogp"
+            app:layout_constraintTop_toBottomOf="@+id/price_small"
+            tools:text="20$" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="24dp"
+            android:onClick="btn_add_to_cart"
+            android:text="Add to Order"
+            app:layout_constraintBottom_toTopOf="@+id/guideline16"
+            app:layout_constraintEnd_toStartOf="@+id/guideline13"
+            app:layout_constraintHorizontal_bias="0.399"
+            app:layout_constraintStart_toStartOf="@+id/guideline10"
+            app:layout_constraintTop_toBottomOf="@+id/btn_plus" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="38dp"
+            android:layout_height="41dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:background="#4B36B6B6"
+            app:layout_constraintBottom_toTopOf="@+id/radiogp"
+            app:layout_constraintEnd_toStartOf="@+id/kcal"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/show_name"
+            app:srcCompat="@drawable/ic_baseline_local_fire_department_24" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="38dp"
+            android:layout_height="41dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="16dp"
+            android:background="#4B36B6B6"
+            app:layout_constraintBottom_toTopOf="@+id/radiogp"
+            app:layout_constraintEnd_toStartOf="@+id/time"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toEndOf="@+id/kcal"
+            app:layout_constraintTop_toBottomOf="@+id/show_name"
+            app:srcCompat="@drawable/ic_baseline_access_time_24" />
+
+        <ImageView
+            android:id="@+id/btn_plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="130dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#673AB7"
+            android:onClick="btn_plus"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogp"
+            app:srcCompat="@drawable/ic_plus"
+            app:tint="#673AB7" />
+
+        <ImageView
+            android:id="@+id/btn_minus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="131dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#673AB7"
+            android:onClick="btn_minus"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toStartOf="@+id/tv_add_plus"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogp"
+            app:srcCompat="@drawable/ic_minus"
+            app:tint="#673AB7" />
+
+        <TextView
+            android:id="@+id/tv_add_plus"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="#B10505"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toStartOf="@+id/btn_minus"
+            app:layout_constraintStart_toEndOf="@+id/btn_plus"
+            app:layout_constraintTop_toBottomOf="@+id/radiogp" />
+
+        <androidx.constraintlayout.helper.widget.Flow
+            android:id="@+id/flow"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="8dp"
+            app:constraint_referenced_ids="btn_minus,tv_add_plus,btn_plus"
+            app:layout_constraintBottom_toTopOf="@+id/button"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/radiogp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline13"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            app:layout_constraintGuide_percent=".98" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_begin="20dp" />
+
+        <androidx.constraintlayout.widget.Guideline
+            android:id="@+id/guideline16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            app:layout_constraintGuide_percent=".98" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

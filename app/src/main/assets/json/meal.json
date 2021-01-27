@@ -1,0 +1,745 @@
+{
+  "Chicken": [
+    {
+      "id": "1",
+      "price": "7.00",
+      "Meal": "Chick-Fil-A Sandwich",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/sbx7n71587673021.jpg",
+      "description": ""
+    },
+    {
+      "id": "2",
+      "price": "7.00",
+      "Meal": "Chicken Couscous",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/qxytrx1511304021.jpg"
+    },
+    {
+      "id": "3",
+      "price": "7.00",
+      "Meal": "Chicken Fajita Mac and Cheese",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/qrqywr1503066605.jpg"
+    },
+    {
+      "id": "4",
+      "price": "7.00",
+      "description": "",
+      "Meal": "Chicken Ham and Leek Pie",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/xrrtss1511555269.jpg"
+    },
+    {
+      "id": "5",
+      "price": "7.00",
+      "Meal": "Chicken Quinoa Greek Salad",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/k29viq1585565980.jpg"
+    },
+    {
+      "id": "6",
+      "price": "7.00",
+      "Meal": "General Tso's Chicken",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/1529444113.jpg"
+    },
+    {
+      "id": "7",
+      "price": "7.00",
+      "Meal": "Honey Balsamic Chicken with Crispy Broccoli & Potatoes",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/kvbotn1581012881.jpg"
+    },
+    {
+      "id": "8",
+      "price": "7.00",
+      "Meal": "Katsu Chicken curry",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/vwrpps1503068729.jpg"
+    },
+    {
+      "id": "9",
+      "price": "7.00",
+      "Meal": "Rappie Pie",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/ruwpww1511817242.jpg"
+    }
+  ],
+  "SeaFish": [
+    {
+      "id": "10",
+      "price": "7.00",
+      "Meal": "Baked salmon with fennel & tomatoes",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/1548772327.jpg"
+    },
+    {
+      "id": "11",
+      "price": "7.00",
+      "Meal": "Cajun spiced fish tacos",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/uvuyxu1503067369.jpg"
+    },
+    {
+      "id": "12",
+      "price": "7.00",
+      "Meal": "Escovitch Fish",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/1520084413.jpg"
+    },
+    {
+      "id": "13",
+      "price": "7.00",
+      "Meal": "Fish pie",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/ysxwuq1487323065.jpg"
+    },
+    {
+      "id": "14",
+      "price": "7.00",
+      "Meal": "Fish Stew with Rouille",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/vptqpw1511798500.jpg"
+    },
+    {
+      "id": "15",
+      "price": "7.00",
+      "Meal": "Garides Saganaki",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/wuvryu1468232995.jpg"
+    },
+    {
+      "id": "16",
+      "price": "7.00",
+      "Meal": "Honey Teriyaki Salmon",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/xxyupu1468262513.jpg"
+    },
+    {
+      "id": "17",
+      "price": "7.00",
+      "Meal": "Kedgeree",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/utxqpt1511639216.jpg"
+    },
+    {
+      "id": "18",
+      "price": "7.00",
+      "Meal": "Kung Po Prawns",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/1525873040.jpg"
+    },
+    {
+      "id": "19",
+      "price": "7.00",
+      "Meal": "Laksa King Prawn Noodles",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/rvypwy1503069308.jpg"
+    },
+    {
+      "id": "20",
+      "price": "7.00",
+      "Meal": "Mediterranean Pasta Salad",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/wvqpwt1468339226.jpg"
+    },
+    {
+      "id": "21",
+      "price": "7.00",
+      "Meal": "Recheado Masala Fish",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/uwxusv1487344500.jpg"
+    },
+    {
+      "id": "22",
+      "price": "7.00",
+      "Meal": "Salmon Avocado Salad",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/1549542994.jpg"
+    },
+    {
+      "id": "23",
+      "price": "7.00",
+      "Meal": "Salmon Prawn Risotto",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/xxrxux1503070723.jpg"
+    },
+    {
+      "id": "24",
+      "price": "7.00",
+      "Meal": "Saltfish and Ackee",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/vytypy1511883765.jpg"
+    },
+    {
+      "id": "25",
+      "price": "7.00",
+      "Meal": "Seafood fideuà",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/wqqvyq1511179730.jpg"
+    },
+    {
+      "id": "26",
+      "price": "7.00",
+      "Meal": "Shrimp Chow Fun",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/1529445434.jpg"
+    },
+    {
+      "id": "27",
+      "price": "7.00",
+      "Meal": "Sledz w Oleju (Polish Herrings)",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/7ttta31593350374.jpg"
+    },
+    {
+      "id": "28",
+      "price": "7.00",
+      "Meal": "Three Fish Pie",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/spswqs1511558697.jpg"
+    },
+    {
+      "id": "29",
+      "price": "7.00",
+      "Meal": "Tuna and Egg Briks",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/2dsltq1560461468.jpg"
+    },
+    {
+      "id": "30",
+      "price": "7.00",
+      "Meal": "Tuna Nicoise",
+      "description": "",
+      "MealThumb": "https://www.themealdb.com/images/media/meals/yypwwq1511304979.jpg"
+    }
+  ],
+  "pizza": [
+    {
+      "id": "31",
+      "price": "7.00",
+      "Meal": "White Pizza",
+      "description": "Ricotta cheese mozzarella cheese and parmesan cheese",
+      "MealThumb": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/white-pizza-horizontal-281-1548690494.jpg"
+    },
+    {
+      "id": "32",
+      "price": "7.00",
+      "Meal": "Hawaiian Special Pizza",
+      "description": "Pineapple and ham",
+      "MealThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/64/Pizza_Hawaii_Special_p%C3%A5_Pizzeria_Papillon_i_Sala_1343.jpg/800px-Pizza_Hawaii_Special_p%C3%A5_Pizzeria_Papillon_i_Sala_1343.jpg"
+    },
+    {
+      "id": "33",
+      "price": "7.00",
+      "Meal": "Lasagna Pizza",
+      "description": "Romano cheese mozzarella cheese ricotta cheese and meat sauce",
+      "MealThumb": "https://thesaltymarshmallow.com/wp-content/uploads/2020/03/lasagna-pizza2.jpg"
+    },
+    {
+      "id": "34",
+      "price": "7.00",
+      "Meal": "Vegetable Pizza",
+      "description": "Peppers onions mushrooms broccoli and tomatoes",
+      "MealThumb": "https://www.culinaryhill.com/wp-content/uploads/2016/08/Veggie-Pizza-Recipe-Culinary-Hill-LR-19.jpg"
+    },
+    {
+      "id": "35",
+      "price": "7.00",
+      "Meal": "Chicken Parmesan Pizza",
+      "description": "Homemade marinara sauce, mozzarella cheese and fresh chicken",
+      "MealThumb": "http://sunsetsontheside.com/wp-content/uploads/2014/02/chicken-parmesan-pizza-4.png"
+    },
+    {
+      "id": "36",
+      "price": "7.00",
+      "Meal": "Supreme Italian Pizza",
+      "description": "Pepper sausage pepperoni mushroom and onions",
+      "MealThumb": "https://previews.123rf.com/images/rez_art/rez_art1401/rez_art140100074/26179260-supreme-italian-pizza-with-pepperoni-and-toppings.jpg"
+    },
+    {
+      "id": "37",
+      "price": "7.00",
+      "Meal": "Pepperoni Pizza Pie",
+      "description": "",
+      "MealThumb": "https://www.simplyrecipes.com/wp-content/uploads/2019/02/Pepperoni-Pizza-Pockets-LEAD-2-600x840.jpg"
+    },
+    {
+      "id": "38",
+      "price": "7.00",
+      "Meal": "Bacon Pizza",
+      "description": "",
+      "MealThumb": "https://www.thespruceeats.com/thmb/P8n0MA7o34LRyR_0v6mMfr-v7jc=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Bacon-Pizza-58ade2395f9b58a3c9d4dd49.jpg"
+    },
+    {
+      "id": "39",
+      "price": "7.00",
+      "Meal": "Buffalo Chicken Pizza",
+      "description": "Hot sauce blue cheese and mozzarella cheese",
+      "MealThumb": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/190226-buffalo-chicken-pizza-370-1552084943.jpg"
+    },
+    {
+      "id": "40",
+      "price": "7.00",
+      "Meal": "Meat Lovers Pizza",
+      "description": "Pepperoni sausage meat balls bacon and chicken",
+      "MealThumb": "https://www.queensleeappetit.com/wp-content/uploads/2019/02/Meat-Lovers-Pizza-3.jpg"
+    },
+    {
+      "id": "41",
+      "price": "7.00",
+      "Meal": "Bruschetta Pizza Pie",
+      "description": "Red onions chicken fresh parsley olive oil and no sauce",
+      "MealThumb": "https://www.killingthyme.net/wp-content/uploads/2019/04/Bruschetta-Pizza.jpg"
+    },
+    {
+      "id": "42",
+      "price": "7.00",
+      "Meal": "Salad Pizza",
+      "description": "Salad onions tomatoes chicken and ranch",
+      "MealThumb": "https://pinchofyum.com/wp-content/uploads/Chopped-Salad-Pizza-5.jpg"
+    },
+    {
+      "id": "43",
+      "price": "7.00",
+      "Meal": "Chicken Florentina Pizza",
+      "description": "Chicken bacon ranch and tomatoes",
+      "MealThumb": "https://realfood.tesco.com/media/images/Florentine-pizza-LGH-2cc73fa2-bc01-4120-8dbd-c364556b499b-0-1400x919.jpg"
+    }
+  ],
+  "fried": [
+    {
+      "id": "44",
+      "price": "7.00",
+      "MealThumb": "https://www.dinneratthezoo.com/wp-content/uploads/2018/01/homemade-egg-rolls-4.jpg",
+      "Meal": "1 Pork Egg Roll 1 Pc",
+      "description": ""
+    },
+    {
+      "id": "45",
+      "price": "7.00",
+      "MealThumb": "https://www.myketokitchen.com/wp-content/uploads/2018/12/Roast-Pork.jpg",
+      "Meal": "3 Roast Pork",
+      "description": ""
+    },
+    {
+      "id": "46",
+      "price": "7.00",
+      "MealThumb": "https://cook.fnr.sndimg.com/content/dam/images/cook/fullset/2013/4/9/0/CCDevour_Ching-spiced-chicken-and-shrimp-egg-rolls-recipe_s4x3.jpg.rend.hgtvcom.826.620.suffix/1365545164628.jpeg",
+      "Meal": "2 Shrimp Egg Roll 1 Pc",
+      "description": ""
+    },
+    {
+      "id": "47",
+      "price": "7.00",
+      "MealThumb": "https://www.recipetineats.com/wp-content/uploads/2016/01/Oven-Pork-Ribs-with-Barbecue-Sauce_4.jpg",
+      "Meal": "4 Bar B Q Spare Ribs",
+      "description": ""
+    },
+    {
+      "id": "48",
+      "price": "7.00",
+      "MealThumb": "https://www.dinneratthezoo.com/wp-content/uploads/2019/09/fried-wonton-5.jpg",
+      "Meal": "5 Fried Wontons 10 Pcs",
+      "description": ""
+    },
+    {
+      "id": "49",
+      "price": "7.00",
+      "MealThumb": "https://www.dinneratthezoo.com/wp-content/uploads/2017/11/cream-cheese-wontons-1.jpg",
+      "Meal": "6 Cheese Wontons 8 Pcs",
+      "description": ""
+    },
+    {
+      "id": "50",
+      "price": "7.00",
+      "MealThumb": "https://www.thespruceeats.com/thmb/VXHI8RXxjdbYVGOwq-BVitNLVSQ=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/chinese-pan-fried-dumplings-694499_hero-01-f8489a47cef14c06909edff8c6fa3fa9.jpg",
+      "Meal": "7 Fried or Steamed Dumplings 8 Pcs",
+      "description": ""
+    },
+    {
+      "id": "51",
+      "price": "7.00",
+      "MealThumb": "https://tmbidigitalassetsazure.blob.core.windows.net/rms3-prod/attachments/37/1200x1200/Crispy-Fried-Onion-Rings_EXPS_FT20_44198_F_0501_1_home.jpg",
+      "Meal": "8 Fried Onion Rings 20 Pcs",
+      "description": ""
+    },
+    {
+      "id": "52",
+      "price": "7.00",
+      "MealThumb": "https://cdn.schwans.com/media/images/products/52101-1-1540.jpg",
+      "Meal": "9 Fantail Jumbo Shrimp",
+      "description": "Each."
+    },
+    {
+      "id": "53",
+      "price": "7.00",
+      "MealThumb": "https://www.dinneratthezoo.com/wp-content/uploads/2018/07/fried-apple-pies-5.jpg",
+      "Meal": "10 Fried Apple Sticks 20 Pcs",
+      "description": ""
+    },
+    {
+      "id": "54",
+      "price": "7.00",
+      "MealThumb": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/Koekjestrommel_open.jpg/280px-Koekjestrommel_open.jpg",
+      "Meal": "11 Sugar Biscuits 10 Pcs",
+      "description": ""
+    },
+    {
+      "id": "55",
+      "price": "7.00",
+      "MealThumb": "https://www.seriouseats.com/2018/04/20180309-french-fries-vicky-wasik-15.jpg",
+      "Meal": "12 French Fries",
+      "description": ""
+    },
+    {
+      "id": "56",
+      "price": "7.00",
+      "MealThumb": "https://www.thespruceeats.com/thmb/W_P9CdaEwxhVEUuo04U0JFh1eQM=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/fried-ripe-plantains-recipe-2138201-hero-01-3966461e0fa14261a80d4eb634d1ccab.jpg",
+      "Meal": "13 Fried Yellow Plantain",
+      "description": ""
+    },
+    {
+      "id": "57",
+      "price": "7.00",
+      "MealThumb": "https://hostthetoast.com/wp-content/uploads/2020/03/Tostones-Fried-Green-Plantains-5.jpg",
+      "Meal": "13 Fried Green Plantain",
+      "description": ""
+    },
+    {
+      "id": "58",
+      "price": "7.00",
+      "MealThumb": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F3228596.jpg",
+      "Meal": "14 Boneless B B Q Spare Ribs",
+      "description": ""
+    }
+  ],
+  "desserts": [
+    {
+      "id": "59",
+      "price": "4.50",
+      "MealThumb": "https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F6292085.jpg",
+      "Meal": "Flan",
+      "description": "Traditional vanilla custard."
+    },
+    {
+      "id": "60",
+      "price": "5.00",
+      "MealThumb": "https://natashaskitchen.com/wp-content/uploads/2019/12/Tres-Leches-Cake-Recipe-6-500x500.jpg",
+      "Meal": "Three Leches",
+      "description": "Traditional spongy cake soaked in sweet milk."
+    },
+    {
+      "id": "61",
+      "price": "5.00",
+      "MealThumb": "https://cdn.apartmenttherapy.info/image/upload/f_jpg,q_auto:eco,c_fill,g_auto,w_1500,ar_4:3/k%2Farchive%2F7b084eaf9d7d564dd2667094c3dd1260a5e4d646",
+      "Meal": "Cheesecake",
+      "description": ""
+    }
+  ],
+  "beef": [
+    {
+      "id": "62",
+      "price": "11.75",
+      "MealThumb": "https://embed.widencdn.net/img/beef/owefkznyzb/exact/moo-shu-beef-horizontal.tif?keep=c&u=7fueml",
+      "Meal": "85 Moo Shu Beef Quart",
+      "description": "With 4 pancakes."
+    },
+    {
+      "id": "63",
+      "price": "7.25",
+      "MealThumb": "https://i0.wp.com/www.spicetheplate.com/wp-content/uploads/2014/12/Tasty-beef-and-bean-sprouts-11-of-12.jpg",
+      "Meal": "86 Beef with Bean Sprouts",
+      "description": ""
+    },
+    {
+      "id": "64",
+      "price": "7.25",
+      "MealThumb": "https://www.dinneratthezoo.com/wp-content/uploads/2018/06/pepper-steak-3.jpg",
+      "Meal": "87 Pepper Steak with Onions",
+      "description": ""
+    },
+    {
+      "id": "65",
+      "price": "7.25",
+      "MealThumb": "https://www.dinneratthezoo.com/wp-content/uploads/2019/09/beef-tips-4.jpg",
+      "Meal": "88 Beef with Mushrooms",
+      "description": ""
+    },
+    {
+      "id": "66",
+      "price": "7.25",
+      "MealThumb": "https://img.sndimg.com/food/image/upload/q_92,fl_progressive,w_1200,c_scale/v1/img/recipes/85/52/6/picrqukDG.jpg",
+      "Meal": "89 Beef with Oyster Sauce",
+      "description": ""
+    },
+    {
+      "id": "67",
+      "price": "7.25",
+      "MealThumb": "https://www.dinneratthezoo.com/wp-content/uploads/2017/10/beef-and-broccoli-stir-fry-14.jpg",
+      "Meal": "90 Beef with Broccoli",
+      "description": ""
+    },
+    {
+      "id": "68",
+      "price": "7.25",
+      "MealThumb": "https://www.thespruceeats.com/thmb/bRJhEnWZ61zDGWLPdh_N_jj4yHM=/960x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/Chinesebeefcurry-GettyImages-123548017-590febda3df78c9283290b06.jpg",
+      "Meal": "91 Beef with Curry Onion",
+      "description": ""
+    },
+    {
+      "id": "69",
+      "price": "7.25",
+      "MealThumb": "https://1.bp.blogspot.com/-4tV0tJlL1a8/XmR-jjslO6I/AAAAAAAAQ2E/c8mFy-bbJL0R_9_DM-9poDSsxca3hz4ZgCLcBGAsYHQ/s1600/beef-in-black-bean-sauce.jpg",
+      "Meal": "92 Beef with Black Bean Sauce",
+      "description": ""
+    },
+    {
+      "id": "70",
+      "price": "7.25",
+      "MealThumb": "https://barefeetinthekitchen.com/wp-content/uploads/2014/01/Thai-Steak-and-Green-Beans-4-1-of-1.jpg",
+      "Meal": "93 Beef with String Beans",
+      "description": ""
+    },
+    {
+      "id": "71",
+      "price": "7.25",
+      "MealThumb": "https://www.dinneratthezoo.com/wp-content/uploads/2019/06/hunan-beef-3.jpg",
+      "Meal": "94 Beef Hunan Style",
+      "description": ""
+    }
+  ],
+  "apitizer": [
+    {
+      "id": "72",
+      "price": "4.00",
+      "MealThumb": "https://modo3.com/thumbs/fit630x300/163995/1490705631/%D8%B7%D8%B1%D9%8A%D9%82%D8%A9_%D8%AA%D8%AD%D8%B6%D9%8A%D8%B1_%D8%A3%D8%B5%D8%A7%D8%A8%D8%B9_%D8%A7%D9%84%D9%85%D9%88%D8%B2%D8%A7%D8%B1%D9%8A%D9%84%D8%A7.jpg",
+      "Meal": "Mozzarella Sticks",
+      "description": ""
+    },
+    {
+      "id": "73",
+      "price": "7.00",
+      "MealThumb": "https://hips.hearstapps.com/hmg-prod/images/classic-buffalo-wings-horizontal-279-1547506077.jpg",
+      "Meal": "Buffalo Wings",
+      "description": ""
+    },
+    {
+      "id": "74",
+      "price": "3.00",
+      "MealThumb": "https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_508,h_320,c_fill/bksm6pyd1fwvmfsk2uqp",
+      "Meal": "Order Friend Fries",
+      "description": "With your choice of dressing"
+    },
+    {
+      "id": "75",
+      "price": "2.00",
+      "MealThumb": "https://www.simplyrecipes.com/wp-content/uploads/2006/09/Garlic-Bread-LEAD-2b-600x840.jpg",
+      "Meal": "Garlic Bread",
+      "description": ""
+    },
+    {
+      "id": "76",
+      "price": "3.00",
+      "MealThumb": "https://www.cookingclassy.com/wp-content/uploads/2015/07/cheesy-garlic-bread7-srgb..jpg",
+      "Meal": "Garlic Bread with Cheese",
+      "description": ""
+    },
+    {
+      "id": "77",
+      "price": "2.50",
+      "MealThumb": "https://upload.wikimedia.org/wikipedia/commons/5/52/Hamburger_patty.jpg",
+      "Meal": "Beef Patty Regular",
+      "description": ""
+    },
+    {
+      "id": "78",
+      "price": "3.50",
+      "MealThumb": "https://www.closetcooking.com/wp-content/uploads/2016/03/BaconandCheeseCornedBeefBurgerwithGuinnessCaramelizedOnionsandaFriedEgg8005147.jpg",
+      "Meal": "Beef Patty with Cheese",
+      "description": ""
+    },
+    {
+      "id": "79",
+      "price": "1.00",
+      "MealThumb": "https://i2.wp.com/jamaicacafe.org/wp-content/uploads/2019/05/Loafes.png",
+      "Meal": "Beef Patty with Cheese and Coco Bread",
+      "description": ""
+    }
+  ],
+  "drink": [
+    {
+      "id": "80",
+      "price": "1.00",
+      "MealThumb": "https://content.oppictures.com/Master_Images/Master_Variants/Variant_500/180505.JPG",
+      "Meal": "Can Soda",
+      "description": ""
+    },
+    {
+      "id": "81",
+      "price": "3.00",
+      "MealThumb": "https://d2aam04nmhpdf8.cloudfront.net/images/images/000/022/023/xlarge/322_0016.jpg",
+      "Meal": "2-Liter Soda",
+      "description": ""
+    },
+    {
+      "id": "82",
+      "price": "1.50",
+      "MealThumb": "https://images-na.ssl-images-amazon.com/images/I/612faWq4c4L._SL1500_.jpg",
+      "Meal": "Snapple",
+      "description": ""
+    },
+    {
+      "id": "83",
+      "price": "1.00",
+      "MealThumb": "https://www.carstarsjo.com/wp-content/uploads/2019/01/%D9%85%D8%A7%D8%A1-%D9%85%D9%82%D8%B7%D8%B1-5-%D9%84%D8%AA%D8%B1.jpg",
+      "Meal": "Water",
+      "description": ""
+    }
+  ],
+  "freshjuice": [
+    {
+      "id": "84",
+      "price": "6.00",
+      "MealThumb": "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/20191115-virgin-pina-colada-delish-ehg-4375-1585599229.jpg",
+      "Meal": "Pina Colada",
+      "description": ""
+    },
+    {
+      "id": "85",
+      "price": "4.60",
+      "MealThumb": "https://qf7s26sxazr7uwqlogrl311.blob.core.windows.net/sys-master-root/h1e/h33/10646475505694/469586_main.jpg_480Wx480H",
+      "Meal": "Jugo Natural de Naranja",
+      "description": "Natural orange juice."
+    },
+    {
+      "id": "86",
+      "price": "4.50",
+      "MealThumb": "https://smartlittlecookie.net/wp-content/uploads/2019/07/Morir-Son%CC%83ando-Smart-Little-Cookie-2.jpg",
+      "Meal": "Morir Sonando",
+      "description": ""
+    },
+    {
+      "id": "87",
+      "price": "4.50",
+      "MealThumb": "https://i.ytimg.com/vi/BChGo8F125A/maxresdefault.jpg",
+      "Meal": "Limonada",
+      "description": "Lemonade."
+    },
+    {
+      "id": "88",
+      "price": "4.50",
+      "MealThumb": "https://assets.tmecosys.com/image/upload/t_web767x639/img/recipe/ras/Assets/58FB06D8-EB97-4E0F-9394-1762157A047E/Derivates/1DE3E199-A0D0-4201-9D4E-0D6A9152B73B.jpg",
+      "Meal": "Batido de Papaya",
+      "description": "Papaya shake."
+    },
+    {
+      "id": "89",
+      "price": "4.60",
+      "MealThumb": "https://smartlittlecookie.net/wp-content/uploads/2017/02/Healthy-Mamey-Smoothie-Smart-Little-Cookie-8.jpg",
+      "Meal": "Batido de Mamey",
+      "description": "Mamey shake."
+    },
+    {
+      "id": "90",
+      "price": "4.60",
+      "MealThumb": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS-fmVq8B_7JtiThBCD53uoY6MI6bOqO7arrg&usqp=CAU",
+      "Meal": "Batido de Pina",
+      "description": "Pineapple shake."
+    },
+    {
+      "id": "91",
+      "price": "4.60",
+      "MealThumb": "https://d1uz88p17r663j.cloudfront.net/resized/e9e8be64f564979230966379bc7869bf_AGUA_DE_AVENA_CON_NARANJA_1200_600.jpg",
+      "Meal": "Jugo de Avena Naranja and Leche",
+      "description": "Oatmeal, orange and milk juice."
+    },
+    {
+      "id": "92",
+      "price": "4.60",
+      "MealThumb": "https://i.pinimg.com/originals/9b/81/2e/9b812ee848497521c192de87d6c3832c.jpg",
+      "Meal": "Jugo de Parcha",
+      "description": "Passion fruit."
+    },
+    {
+      "id": "93",
+      "price": "4.00",
+      "MealThumb": "https://www.culinaryhill.com/wp-content/uploads/2018/03/Fruit-Punch-Culinary-Hill-LR-01-660x990.jpg",
+      "Meal": "Fruit Punch",
+      "description": ""
+    },
+    {
+      "id": "94",
+      "price": "4.00",
+      "MealThumb": "https://modo3.com/thumbs/fit630x300/116984/1480337414/%D9%85%D8%A7_%D9%87%D9%8A_%D9%81%D9%88%D8%A7%D8%A6%D8%AF_%D8%B9%D8%B5%D9%8A%D8%B1_%D8%A7%D9%84%D8%AC%D8%B2%D8%B1.jpg",
+      "Meal": "Jugo de Zanahoria",
+      "description": "Carrot juice."
+    }
+  ],
+  "sandawich": [
+    {
+      "id": "95",
+      "price": "8.00",
+      "MealThumb": "https://www.seriouseats.com/recipes/images/2016/06/20160623-cubano-roast-pork-sandwich-recipe-19-1500x1125.jpg",
+      "Meal": "Sandwich Cubano",
+      "description": "Classic Cuban sandwich. Pulled pork, ham and Swiss cheese."
+    },
+    {
+      "id": "96",
+      "price": "6.30",
+      "MealThumb": "https://www.record.com.pe/consejos/wp-content/uploads/1970/01/receta-del-sandwich-de-jamon-y-queso-record.jpg",
+      "Meal": "Sandwich de Jamon Queso",
+      "description": "Ham and cheese sandwich. With your choice of American or Swiss cheese."
+    },
+    {
+      "id": "97",
+      "price": "7.45",
+      "MealThumb": "https://irecetasfaciles.com/wp-content/uploads/2018/05/S%C3%A1ndwich-con-pollo-empanizado.jpg",
+      "Meal": "Sandwich de Pollo",
+      "description": "Grilled chicken breast or rotisserie chicken sandwich."
+    },
+    {
+      "id": "98",
+      "price": "8.00",
+      "MealThumb": "https://latinamommeals.com/wp-content/uploads/2019/08/Steak-and-onions-sandwich-8-of-18.jpg",
+      "Meal": "Sandwich de Bistec",
+      "description": "Thin-sliced steak sandwich."
+    },
+    {
+      "id": "99",
+      "price": "8.00",
+      "MealThumb": "https://i.pinimg.com/originals/01/08/de/0108de74a9a91ac1dfe7fbdc0ea1b3bf.jpg",
+      "Meal": "Sandwich de Pernil",
+      "description": "Savory pulled roast pork sandwich."
+    }
+  ],
+  "sideOrder": [
+    {
+      "id": "100",
+      "price": "0.35",
+      "MealThumb": "https://myfoodstory.com/wp-content/uploads/2019/03/How-to-make-Crispy-Fried-Noodles-at-home-6.jpg",
+      "Meal": "Extra Crispy Noodles",
+      "description": "Portion."
+    },
+    {
+      "id": "101",
+      "price": "0.35",
+      "MealThumb": "https://www.thespruceeats.com/thmb/846egxhfJM0WgWTMDyv8WgHSqTM=/1989x1119/smart/filters:no_upscale()/GettyImages-506878030-e4beb95a66e84b34bce8bc0ff7b940a8.jpg",
+      "Meal": "Fortune Cookies 3 Pcs",
+      "description": ""
+    },
+    {
+      "id": "102",
+      "price": "2.00",
+      "MealThumb": "https://hips.hearstapps.com/vidthumb/images/delish-u-rice-2-1529079587.jpg",
+      "Meal": "White Rice",
+      "description": ""
+    },
+    {
+      "id": "103",
+      "price": "2.75",
+      "MealThumb": "https://www.recipetineats.com/wp-content/uploads/2020/09/Perfectly-Cooked-Brown-Rice_7-SQ.jpg",
+      "Meal": "Brown Rice",
+      "description": ""
+    }
+  ]
+}
