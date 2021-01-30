@@ -17,7 +17,7 @@ public class AboutUsActivity extends AppCompatActivity {
 
     public void email(View view) {
         Intent email = new Intent(Intent.ACTION_SENDTO);
-        email.putExtra(Intent.EXTRA_EMAIL,new String[]{"ahmedmagdy_52@hotmail.com"});
+        email.putExtra(Intent.EXTRA_EMAIL,new String[]{""});
         if (email.resolveActivity(getPackageManager()) != null) {
             startActivity(email);
         }
@@ -27,7 +27,7 @@ public class AboutUsActivity extends AppCompatActivity {
     public void phone(View view) {
         Intent intent = new Intent(Intent.ACTION_DIAL);
 
-        intent.setData(Uri.parse("tel:" + "+201018018867"));
+        intent.setData(Uri.parse("tel:" + ""));
 
         startActivity(intent);
     }
